@@ -1,0 +1,27 @@
+Predefined Functional Interfaces -> Predicate, Function, Consumer,Supplier
+Package :- java.util.function
+
+PREDICATE FI:-
+	> Single abstract method test()
+	> test() method takes one value an return boolean value True or False
+	
+	
+	
+FUNCTION FI:-
+	> Single abstract method apply()
+	> apply() method takes single value of any type as parameter and returns single value of any type
+	> Function Chaining : andThen() , compose()
+	
+	f1.andThen(f2).apply(4) - First 4 will be passed to f1 and then function result will pass to f2...
+	f1.andThen(f2).apply(4) - First 4 will be passed to f2 and then function result will pass to f1...
+	
+	
+	
+CONSUMER FI:-
+	> Single abstract method accept()
+	> accept() method takes single value of any type as input
+	
+
+SUPPLIER FI:-
+	> Single abstract method get()
+	> It will perform some action and supply value/object

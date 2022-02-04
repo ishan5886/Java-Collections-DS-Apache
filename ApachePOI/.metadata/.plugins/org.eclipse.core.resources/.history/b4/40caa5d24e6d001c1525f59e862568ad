@@ -1,0 +1,30 @@
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.*;
+
+public class ReadData {
+
+	public static void main(String[] args) throws IOException {
+		
+		String excelFilePath = ".//datafiles//countries.xlsx";
+		
+		FileInputStream is= new FileInputStream(excelFilePath); //open file in reading mode
+		XSSFWorkbook wb = new XSSFWorkbook(is);
+		XSSFSheet sheet = wb.getSheet("Sheet1");
+		
+		
+		//Using For Loop
+		
+		int rows = sheet.getLastRowNum();
+		int cols = sheet.getRow(1).getLastCellNum();
+		
+		System.out.println(rows);
+		System.out.println(cols);
+		
+		
+		
+
+	}
+
+}

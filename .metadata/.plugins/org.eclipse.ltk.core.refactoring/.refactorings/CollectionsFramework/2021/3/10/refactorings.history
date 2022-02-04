@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ArrayListDemo.VirtualCapacity&apos; to &apos;VirtualCapacityAL&apos;&#x0D;&#x0A;- Original project: &apos;CollectionsFramework&apos;&#x0D;&#x0A;- Original element: &apos;ArrayListDemo.VirtualCapacity&apos;&#x0D;&#x0A;- Renamed element: &apos;ArrayListDemo.VirtualCapacityAL&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;VirtualCapacity&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ArrayListDemo{VirtualCapacity.java[VirtualCapacity" matchStrategy="1" name="VirtualCapacityAL" qualified="false" references="true" similarDeclarations="false" stamp="1615044615501" textual="false" version="1.0"/>
+</session>

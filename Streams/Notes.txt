@@ -1,0 +1,26 @@
+STREAMS:-
+
+Process objects/elements from Collections
+
+Streams provide two different mechanisms to process objects/elements from Collections - Filter, Map
+
+Filter -> Used to filter values from a collection to use for other operations or use filtered values in other collections
+
+Map -> Apply certain operations on every element and then use the resulting values in another collection or for some other operations
+
+Add objects/elements from the Collection into a Stream, perform Filter/Map on stream and then store it in another collection.
+
+Terminal Operation Methods available in Streams:-
+
+	> Collect()- Collect data from Stream and use in another Collection
+	> Sorted() - After data from Stream stored in another collection, used to sort the values
+	> Count() - Count number of elements in Collection from Stream 
+	> Distinct() - to find out unique values - Non Terminal Method
+	> forEach() - Read each and every value from Stream
+	> min()
+	> max()
+	>toArray
+	
+	
+FLAT MAP -> For Complex Collections
+Map returns single object after an operation, FlatMap returns a stream of objects

@@ -1,0 +1,33 @@
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class WriteData {
+
+	public static void main(String[] args) {
+		
+		
+		XSSFWorkbook wb = new XSSFWorkbook(); //CREATE A NEW WORKBOOK
+		
+		XSSFSheet sheet = wb.createSheet("EmpInfo");
+		
+		Object empdata[][] = {
+				
+				{"EmpId","Name", "Job"},
+				{101,"Ishan","Test"},
+				{101,"Ishan1","Test1"},
+				{101,"Ishan2","Test2"},
+				{101,"Ishan3","Test3"},
+				{101,"Ishan4","Test4"}
+				
+		};
+		
+		//Using For Loop
+		
+		int rows = empdata.length;
+		int cols = empdata[0].length;
+		
+		System.out.println(rows);
+		System.out.println(cols);
+	}
+
+}

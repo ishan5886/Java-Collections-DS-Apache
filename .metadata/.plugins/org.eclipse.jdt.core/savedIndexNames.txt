@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/Users/ishandhaliwal/Documents/Java Collections Framework Naveen/.metadata/.plugins/org.eclipse.jdt.core
+408564619.index
+3812498301.index
+3359045860.index
+3299296117.index
+3568195764.index
